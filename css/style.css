@@ -1,0 +1,121 @@
+/* Body */
+body, html{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  background: #3B1C32;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  height: 100%;
+  weight: 100%;
+  font-family: Lora, monospace;
+}
+.wrapper{
+    display: flex;
+    /*width: 100%;
+    height: 100%;*/
+    position: relative;
+}
+/* Header */
+.nav-menu{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  height: 80px;
+  padding: 0;
+  margin: 0;
+}
+.top-logo{
+  width: 100%;
+  align-self: center;
+  justify-content: flex-start;
+  font-size: 15px;
+  margin: 0 0 0 20px;
+  padding: 0;
+}
+.top-logo h1{
+  margin: 0;
+  color: white;
+}
+.menu-btn{
+  width: 100%;
+  height: 100%;
+  justify-content: flex-end;
+}
+.menu-btn ul{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  margin: 0 20px 0 0;
+  padding: 0;
+  height: 100%;
+}
+.menu-btn li{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  list-style: none;
+  font-size: 16px;
+  height: 100%;
+  width: 80px;
+}
+.menu-btn li:hover{
+  background: #753763;
+  transition: background-color .7s ease;
+}
+.menu-btn a{
+  display: flex;
+  text-decoration: none;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  color: white;
+}
+/* Main */
+.present{
+  display: flex;
+  width: 100%;
+  height: 400px;
+  background-image: url(../assets/presentpic3.jpg);
+  justify-content: center;
+  align-items: center;
+}
+.present-text{
+  display: flex;
+  flex-direction: column;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2%;
+  font-size: 20px;
+  width: 100%;
+  background: rgb(0,0,0);
+  background: radial-gradient(circle, rgba(0,0,0,0.3309698879551821) 0%, rgba(0,0,0,0.10127801120448177) 100%);
+}
+.present-text h2{
+  margin: 0;
+  font-size: 40px;
+}
+.hotel-photos{
+  display: flex;
+  flex-direction: column;
+}
+.hotel-photos h1{
+  margin: 0;
+}
+.hotel-photos a{
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+.hotel-pics img{
+  width: 400px;
+  height: 250px;
+  border-radius: 10px;
+  padding: 0;
+  margin: 3px 0 3px 3px;
